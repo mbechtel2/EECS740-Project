@@ -3,9 +3,9 @@
 Steps to recreate report results:
 
 1. Generate Spectrum images for Histogram Matching:
-
+	```
 	$ python create_spectrums.py 320 240 4 # Figure 3
-
+	```
 2. Create simulated copies of training, validation, and test data:
 	```
 	$ mkdir figs
